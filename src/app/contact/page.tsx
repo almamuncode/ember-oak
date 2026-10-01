@@ -1,3 +1,4 @@
+import { GroupPlanning } from '@/components/GroupPlanning';
 import { FAQSection } from '@/components/FAQSection';
 import type { Metadata } from 'next';
 import { MapPin, Phone, Mail, Flame } from 'lucide-react';
@@ -93,6 +94,7 @@ export default function Contact() {
           </p>
         </div>
       </section>
+      <GroupPlanning />
       <FAQSection />
     </>
   );
