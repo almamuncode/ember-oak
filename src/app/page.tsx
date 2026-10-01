@@ -1,3 +1,4 @@
+import { PrivateDining } from '@/components/PrivateDining';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, ArrowDown, Flame, MapPin, Star } from 'lucide-react';
 import { FoodImage } from '@/components/FoodImage';
@@ -141,6 +142,7 @@ export default function Home() {
       <Values />
       <GallerySection />
       <Testimonials />
+      <PrivateDining />
       <ReservationCTA />
     </>
   );

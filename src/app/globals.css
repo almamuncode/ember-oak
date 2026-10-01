@@ -2612,3 +2612,68 @@ em {
   color: var(--accent);
   border-color: var(--accent);
 }
+
+/* Shared guest information sections */
+.guest-section {
+  scroll-margin-top: 110px;
+}
+.guest-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.guest-card {
+  border: 1px solid var(--border);
+  padding: 28px;
+  min-width: 0;
+}
+.guest-card h3 {
+  font-size: 27px;
+  margin-bottom: 12px;
+}
+.guest-card p,
+.guest-copy {
+  color: var(--muted);
+  line-height: 1.8;
+}
+.guest-card .text-link {
+  margin-top: 18px;
+}
+.guest-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.guest-split .hours {
+  margin-bottom: 24px;
+}
+.guest-faq {
+  max-width: 850px;
+}
+.guest-faq details {
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+}
+.guest-faq summary {
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--cream);
+}
+.guest-faq details p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-top: 16px;
+}
+.guest-step {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+@media (max-width: 800px) {
+  .guest-cards,
+  .guest-split {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
