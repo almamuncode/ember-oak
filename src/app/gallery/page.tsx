@@ -1,3 +1,4 @@
+import { GalleryGuide } from '@/components/GalleryGuide';
 import type { Metadata } from 'next';
 import { GallerySection, ReservationCTA } from '@/components/Sections';
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function Gallery() {
         <p>The details that make a meal a memory. Take a look around.</p>
       </header>
       <GallerySection full />
+      <GalleryGuide />
       <ReservationCTA />
     </>
   );
