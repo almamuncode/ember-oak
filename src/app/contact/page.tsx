@@ -1,3 +1,4 @@
+import { FAQSection } from '@/components/FAQSection';
 import type { Metadata } from 'next';
 import { MapPin, Phone, Mail, Flame } from 'lucide-react';
 import { Hours } from '@/components/Footer';
@@ -92,6 +93,7 @@ export default function Contact() {
           </p>
         </div>
       </section>
+      <FAQSection />
     </>
   );
 }
