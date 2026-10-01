@@ -1,3 +1,4 @@
+import { DrinksSection } from '@/components/DrinksSection';
 import { VisitSection } from '@/components/VisitSection';
 import { PrivateDining } from '@/components/PrivateDining';
 import Link from 'next/link';
@@ -141,6 +142,7 @@ export default function Home() {
         </span>
       </section>
       <Values />
+      <DrinksSection />
       <GallerySection />
       <Testimonials />
       <PrivateDining />
