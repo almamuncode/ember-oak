@@ -5,6 +5,9 @@ A complete restaurant portfolio project demonstrating a production-style fronten
 ## Features
 
 - Complete homepage, restaurant story, editorial gallery, and contact page
+- Private dining inspiration, visit planning with shared opening hours, and zero-proof drinks highlights
+- Native expandable FAQs, dietary browsing guidance, kitchen craft, gallery context, and group planning prompts
+- Footer shortcuts to private dining, visit planning, and FAQs
 - 75 typed menu items across 17 categories
 - Search by dish, description, or ingredients; category and vegetarian filters work together
 - Individual statically generated dish pages with metadata, ingredients, dietary labels, heat levels, and related dishes
@@ -70,6 +73,14 @@ npm run format:check
 | `/contact`     | Address, hours, contact form, reservation CTA, illustrative map                                             |
 | `/sitemap.xml` | Main pages and all menu detail URLs                                                                         |
 | `/robots.txt`  | Crawl configuration                                                                                         |
+
+## Guest planning sections
+
+The homepage includes `#private-dining`, `#zero-proof-drinks`, and `#plan-your-visit` sections. The visit section reuses the opening hours and reservation control already used elsewhere on the site. Contact includes `#group-planning` prompts and a `#faq` section built with native `details` and `summary` elements for keyboard-friendly expansion without client JavaScript.
+
+The menu includes `#dietary-guide`, About includes `#kitchen-craft`, and the gallery includes `#behind-the-gallery`. Each section is a server component in `src/components/`, with shared responsive card styling in `globals.css`. Cards collapse to one column below 800px. Footer links provide direct access to the main guest planning anchors.
+
+These additions preserve the fictional restaurant boundaries: event inquiries and reservations are demo interactions, images are illustrative, and dietary labels are not allergen guarantees.
 
 ## Menu filtering and search
 
