@@ -1,3 +1,4 @@
+import { KitchenCraft } from '@/components/KitchenCraft';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
@@ -100,6 +101,7 @@ export default function About() {
           hospitality and the kind of honest cooking that feels at home anywhere.
         </p>
       </section>
+      <KitchenCraft />
       <GallerySection />
       <ReservationCTA />
     </>
