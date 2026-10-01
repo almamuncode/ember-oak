@@ -1,0 +1,22 @@
+# Dependencies
+/node_modules/
+
+# Next.js generated output
+/.next/
+/out/
+/build/
+next-env.d.ts
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env*
+!.env.example
+
+# Test output
+/playwright-report/
+/test-results/
+/blob-report/
+
+# Logs and OS files
+*.log
+.DS_Store

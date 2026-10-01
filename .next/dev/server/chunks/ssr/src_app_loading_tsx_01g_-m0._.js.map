@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/mamun/Codes/Personal/restaurant-web/ember-oak/src/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <div className=\"container loading-page\" role=\"status\" aria-label=\"Loading page\">\n      <div className=\"skeleton skeleton-title\" />\n      <div className=\"skeleton skeleton-copy\" />\n      <div className=\"menu-grid\">\n        {[1, 2, 3, 4].map((key) => (\n          <div key={key} className=\"skeleton skeleton-card\" />\n        ))}\n      </div>\n      <span className=\"sr-only\">Preparing something good…</span>\n    </div>\n  );\n}\n"],"names":["Loading","className","role","map","key"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;QAAIC,WAAU;QAAyBC,MAAK;QAAS,cAAW;;0BAC/D,8OAAC;gBAAID,WAAU;;;;;;0BACf,8OAAC;gBAAIA,WAAU;;;;;;0BACf,8OAAC;gBAAIA,WAAU;0BACZ;oBAAC;oBAAG;oBAAG;oBAAG;iBAAE,CAACE,GAAG,CAAC,CAACC,oBACjB,8OAAC;wBAAcH,WAAU;uBAAfG;;;;;;;;;;0BAGd,8OAAC;gBAAKH,WAAU;0BAAU;;;;;;;;;;;;AAGhC"}}]
-}
