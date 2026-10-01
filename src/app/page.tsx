@@ -1,3 +1,4 @@
+import { VisitSection } from '@/components/VisitSection';
 import { PrivateDining } from '@/components/PrivateDining';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, ArrowDown, Flame, MapPin, Star } from 'lucide-react';
@@ -143,6 +144,7 @@ export default function Home() {
       <GallerySection />
       <Testimonials />
       <PrivateDining />
+      <VisitSection />
       <ReservationCTA />
     </>
   );
