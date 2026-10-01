@@ -82,6 +82,9 @@ export function Footer() {
           <Link href="/about">Our Story</Link>
           <Link href="/gallery">The Gallery</Link>
           <Link href="/contact">Find Us</Link>
+          <Link href="/#private-dining">Private Dining</Link>
+          <Link href="/#plan-your-visit">Plan Your Visit</Link>
+          <Link href="/contact#faq">Frequently Asked Questions</Link>
         </div>
         <div>
           <h3>Come on over</h3>
