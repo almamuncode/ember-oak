@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/mamun/Codes/Personal/restaurant-web/ember-oak/src/app/not-found.tsx"],"sourcesContent":["import Link from 'next/link';\nimport { Flame } from 'lucide-react';\nexport default function NotFound() {\n  return (\n    <section className=\"container not-found\">\n      <Flame size={40} />\n      <span className=\"eyebrow\">404 · Off the menu</span>\n      <h1>This table’s a little empty.</h1>\n      <p>We couldn’t find that page, but there’s plenty of good food waiting.</p>\n      <Link href=\"/menu\" className=\"button\">\n        Explore Our Menu\n      </Link>\n    </section>\n  );\n}\n"],"names":["NotFound","className","size","href"],"mappings":";;;;;AAAA;AACA;;;;AACe,SAASA;IACtB,qBACE,8OAAC;QAAQC,WAAU;;0BACjB,8OAAC,8MAAK;gBAACC,MAAM;;;;;;0BACb,8OAAC;gBAAKD,WAAU;0BAAU;;;;;;0BAC1B,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC,0LAAI;gBAACE,MAAK;gBAAQF,WAAU;0BAAS;;;;;;;;;;;;AAK5C"}}]
+}

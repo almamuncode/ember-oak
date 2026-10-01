@@ -1,0 +1,20 @@
+/** Local sample photography; source URLs are recorded in public/images/sources.json. */
+export const images = {
+  feast: '/images/feast.jpg',
+  burger: '/images/burger.jpg',
+  steak: '/images/steak.jpg',
+  pizza: '/images/pizza.jpg',
+  pasta: '/images/pasta.jpg',
+  chicken: '/images/chicken.jpg',
+  wings: '/images/wings.jpg',
+  salmon: '/images/salmon.jpg',
+  salad: '/images/salad.jpg',
+  fries: '/images/fries.jpg',
+  dessert: '/images/dessert.jpg',
+  coffee: '/images/coffee.jpg',
+  drink: '/images/drink.jpg',
+  interior: '/images/interior.jpg',
+  chef: '/images/chef.jpg',
+  grill: '/images/grill.jpg',
+  sandwich: '/images/sandwich.jpg',
+};
