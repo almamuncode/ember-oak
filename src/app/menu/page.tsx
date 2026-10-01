@@ -1,3 +1,4 @@
+import { DietaryGuide } from '@/components/DietaryGuide';
 import type { Metadata } from 'next';
 import { MenuBrowser } from '@/components/MenuBrowser';
 import { ReservationCTA } from '@/components/Sections';
@@ -23,6 +24,7 @@ export default function MenuPage() {
       <section className="container full-menu" aria-label="Our menu">
         <MenuBrowser />
       </section>
+      <DietaryGuide />
       <ReservationCTA />
     </>
   );
